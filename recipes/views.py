@@ -6,7 +6,7 @@ from django.http import HttpResponse
 # HTTP REQUEST
 def home(request):
     # return HTTP Response
-    return render(request, 'recipes/home.html')
+    return render(request, 'recipes/pages/home.html')
 
 
 def sobre(request):
