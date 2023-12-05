@@ -247,17 +247,32 @@
             color: var(--color-white);
             text-decoration: none;
             text-align: center;
+            justify-content: space-between;
             padding: 1.5rem var(--spacing-gutter-medium);
             transition: all 300ms ease-in-out;
-        }
-
-        .recipe-footer a:hover {
-            filter: brightness(2);
         }
 
         .recipe-footer i {
             padding: .5rem;
         }
-    </style>
 
+        .main-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--color-primary-dark);
+            color: var(--color-white);
+            padding: var(--spacing-gutter-large);
+        }
+
+        .main-footer a {
+            color: var(--color-white);
+            text-decoration: none;
+            transition: all 300ms ease-in-out;
+        }
+
+        .main-footer a:hover {
+            color: var(--color-debug-dark);
+        }
+    </style>
 </head>
