@@ -19,6 +19,11 @@ class RecipeURLsTest(TestCase):
         self.assertEqual(home_url, '/recipes/1/')
 
 
+    def test_recipe_search_url_is_correct(self):
+        home_url = reverse('recipes:search')
+        self.assertEqual(home_url, '/recipes/search/')
+
+
     def test_recipes_sobre_url_is_correct(self):
         home_url = reverse('recipes:sobre')
         self.assertEqual(home_url, '/sobre/')
